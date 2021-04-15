@@ -6,10 +6,10 @@ export default function Home({articles}) {
   return (
     <div>
       <Head>
-        <title>Next.js! yeah!</title>
+        <title>J learning Next.js</title>
         <meta name="keywords" contents="first time next.js! excited!" />
       </Head>
-      welcome to next
+      welcome to Next.js!
       <ArticleLists articles={articles} />
 
     </div>

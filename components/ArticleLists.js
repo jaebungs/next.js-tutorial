@@ -1,3 +1,4 @@
+import ArticleItem from './ArticleItem';
 import articleStyle from '../styles/Article.module.css';
 
 const ArticleLists = ({ articles }) => {
@@ -5,10 +6,7 @@ const ArticleLists = ({ articles }) => {
         <div className={articleStyle.grid}>
             {articles.map(article => {
                 return (
-                    <div className={articleStyle.card} key={article.id}>
-                        <h3>{article.title}</h3>
-                        <p>{article.body}</p>
-                    </div>
+                        <ArticleItem key={article.id} article={article} />
                     )
                 })
             }

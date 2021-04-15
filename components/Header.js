@@ -10,7 +10,7 @@ const Header = () => {
                 <span className="title">Next.js</span> Tutorial
             </h1>
             <p className={headerStyles.description}>
-                Learn Next.js now.
+                Jae is learning Next.js with Traversy's youtube.
             </p>
             {/* style in components */}
             {/* <style jsx>
